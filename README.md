@@ -1,4 +1,4 @@
-# Python 3.7 Docker Alpine image with Pipenv
+# Python 3.8.1 Docker Alpine image with Pipenv
 
 Usage:
 
@@ -28,4 +28,4 @@ Note packages should be spaced with empty space between them.
 
 > Advantages to using this image over kennethreitz/pipenv (Size only) - `114MB` vs `1.03GB`
 
-> Disadvantages - This is an alpine based version, based on official python3.7:alpine images and some python packages might not work as expected in alpine
+> Disadvantages - This is an alpine based version, based on official python:3.8.1-alpine3.11 images and some python packages might not work as expected in alpine

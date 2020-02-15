@@ -1,4 +1,4 @@
-FROM python:3.7-alpine3.8
+FROM python:3.8.1-alpine3.11
 ARG packages
 RUN apk --update add ${packages} \
     && rm -rf /var/cache/apk/*
